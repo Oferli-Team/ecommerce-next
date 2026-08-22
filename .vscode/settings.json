@@ -1,0 +1,15 @@
+{
+   "search.exclude": {
+      "**/package-lock.json": true,
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/dist": true,
+      "**/yarn.lock": true,
+      "**/bun.lockb": true
+   },
+   "eslint.workingDirectories": [
+      "./apps/storefront",
+      "./apps/admin",
+      "./apps/storefront/.react-email"
+   ]
+}

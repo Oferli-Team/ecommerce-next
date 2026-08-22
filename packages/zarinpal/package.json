@@ -1,0 +1,27 @@
+{
+   "name": "@persepolis/zarinpal",
+   "version": "0.1.0",
+   "description": "",
+   "main": "dist/index.js",
+   "scripts": {
+      "publish": "npm publish --access public",
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": {
+      "name": "Sesto",
+      "url": "https://github.com/sesto-dev"
+   },
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sesto-dev/next-prisma-tailwind-ecommerce.git"
+   },
+   "homepage": "https://github.com/sesto-dev/next-prisma-tailwind-ecommerce#readme",
+   "devDependencies": {
+      "typescript": "^5.2.2"
+   },
+   "peerDependencies": {
+      "@types/node": "^20.6.2"
+   }
+}
